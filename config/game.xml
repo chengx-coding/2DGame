@@ -1,0 +1,187 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>Xin Cheng's 2D Game</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>600</maxFrames>
+<username>xcheng2</username>
+
+<view>
+    <width>1280</width>
+    <height>720</height>
+</view>
+
+<world>
+    <width>2000</width>
+    <height>720</height>
+</world>
+
+<HUD>
+    <alpha>150</alpha>
+    <posX>10</posX>
+    <posY>10</posY>
+    <width>450</width>
+    <numOfLines>10</numOfLines>
+    <interval>30</interval>
+    <line0>Press a/d to move</line0>
+    <line1>Press w to jump</line1>
+    <line2>Press s to crouch and block</line2>
+    <line3>Press space to shoot</line3>
+    <line4>Press c to change collision strategy</line4>
+    <line5>Press F1 to toggle HUD</line5>
+    <line6>Press p to pause</line6>
+    <line7>Press r to restart</line7>
+    <line8>Press g to enter God mode</line8>
+    <line9>Press m to enter God mode</line9>
+</HUD>
+
+<InfoHUD>
+    <alpha>150</alpha>
+    <posX>910</posX>
+    <posY>10</posY>
+    <width>350</width>
+    <numOfLines>10</numOfLines>
+    <interval>30</interval>
+</InfoHUD>
+
+
+<Ground>
+    <file>assets/Ground.png</file>
+    <factor>1</factor>
+    <transparency>false</transparency>
+</Ground>
+
+<Mountain>
+    <file>assets/Mountain.png</file>
+    <factor>2</factor>
+    <transparency>false</transparency>
+</Mountain>
+
+<Sky>
+    <file>assets/Sky.png</file>
+    <factor>4</factor>
+    <transparency>false</transparency>
+</Sky>
+
+<font name="font">
+    <file>fonts/arial.ttf</file>
+    <size>24</size>
+    <red>255</red>
+    <green>0</green>
+    <blue>0</blue>
+    <alpha>255</alpha>
+</font>
+
+<Cloud>
+    <file>assets/Cloud.png</file>
+    <number>5</number>
+    <startLoc x="1000" y="500"/>
+    <frames>1</frames>
+    <frameInterval>0</frameInterval>
+    <speedX>200</speedX>
+    <speedY>200</speedY>
+    <safeDistance>100</safeDistance>
+    <speedScale>3</speedScale>
+    <speedScaleTicks>200</speedScaleTicks>
+    <transparency>false</transparency>
+    <chunk>
+        <size>32</size>
+        <distance>50</distance>
+    </chunk>
+</Cloud>
+
+<Sword>
+    <file>assets/Sword.png</file>
+    <number>8</number>
+    <startLoc x="1500" y="450"/>
+    <frames>8</frames>
+    <frameInterval>100</frameInterval>
+    <speedX>0</speedX>
+    <speedY>0</speedY>
+    <speed>600</speed>
+    <safeDistance>60</safeDistance>
+    <speedScale>3</speedScale>
+    <speedScaleTicks>200</speedScaleTicks>
+    <transparency>false</transparency>
+    <chunk>
+        <size>32</size>
+        <distance>50</distance>
+    </chunk>
+</Sword>
+
+<XCheng>
+    <startLoc x="50" y="500"/>
+    <speedX>200</speedX>
+    <speedY>1200</speedY>
+    <attackRange>800</attackRange>
+    <walk>
+        <file>assets/XCheng.Walk.png</file>
+        <transparency>false</transparency>
+        <frames>4</frames>
+        <frameInterval>200</frameInterval>
+    </walk>
+    <idle>
+        <file>assets/XCheng.Idle.png</file>
+        <transparency>false</transparency>
+    </idle>
+    <jump>
+        <file>assets/XCheng.Jump.png</file>
+        <height>400</height>
+        <transparency>false</transparency>
+    </jump>
+    <crouch>
+        <file>assets/XCheng.Crouch.png</file>
+        <transparency>false</transparency>
+    </crouch>
+    <shoot>
+        <file>assets/XCheng.Shoot.png</file>
+        <transparency>false</transparency>
+        <interval>300</interval>
+    </shoot>
+    <jumpShoot>
+        <file>assets/XCheng.JumpShoot.png</file>
+        <transparency>false</transparency>
+    </jumpShoot>
+    <chunk>
+        <size>32</size>
+        <distance>50</distance>
+    </chunk>
+</XCheng>
+
+
+<menu>
+    <width>640</width>
+    <height>360</height>
+    <noOfOptions>3</noOfOptions>
+    <loc x="320" y="180"/>
+    <optionRelativeLoc x="275" y="50" />
+    <color r="193" g="205" b="205" a="255"/>
+    <option0>Resume</option0>
+    <option1>Option1</option1>
+    <option2>Help</option2>
+    <spaces>50</spaces>
+</menu>
+
+<clickOn>
+    <file>assets/clickon.png</file>
+    <startLoc x="0" y="0"/>
+    <speedX>0</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+    <file>assets/clickoff.png</file>
+    <startLoc x="0" y="0"/>
+    <speedX>0</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</clickOff>
+
+
+</GameData>
