@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bullet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bulletPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\chunk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collisionStrategy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\drawable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\explodingSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frameGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gamedata.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hud.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imageFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\infoHUD.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ioMod.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\multisprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parseXML.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smartMultiSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smartSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sound.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spriteSheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\viewport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bulletPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chunk.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collisionStrategy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\explodingSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frameGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gamedata.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hud.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imageFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infoHUD.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ioMod.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\multisprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parseXML.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smartMultiSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smartSprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spriteSheet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector2f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\viewport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

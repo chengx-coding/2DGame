@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <algorithm>
 #include "explodingSprite.h"
 
 ExplodingSprite::ExplodingSprite(const Sprite& s) :

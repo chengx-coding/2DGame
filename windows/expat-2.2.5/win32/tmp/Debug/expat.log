@@ -1,0 +1,19 @@
+﻿  loadlibrary.c
+c:\github\2dgame\windows\expat-2.2.5\lib\loadlibrary.c(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\github\2dgame\windows\expat-2.2.5\lib\loadlibrary.c(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  xmlrole.c
+  xmltok.c
+  xmltok_impl.c
+  xmltok_ns.c
+  正在生成代码...
+  xmlparse.c
+c:\github\2dgame\windows\expat-2.2.5\lib\xmlparse.c(832): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1183): note: 参见“getenv”的声明
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\GitHub\2DGame\windows\expat-2.2.5\lib\.\..\win32\bin\Debug\expat.dll) does not match the Linker's OutputFile property value (C:\GitHub\2DGame\windows\expat-2.2.5\win32\bin\Debug\libexpat.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(expat) does not match the Linker's OutputFile property value (libexpat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+loadlibrary.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 .\..\win32\bin\Debug\libexpat.lib 和对象 .\..\win32\bin\Debug\libexpat.exp
+  expat.vcxproj -> C:\GitHub\2DGame\windows\expat-2.2.5\lib\.\..\win32\bin\Debug\expat.dll
+  expat.vcxproj -> .\..\win32\bin\Debug\expat.pdb (Full PDB)

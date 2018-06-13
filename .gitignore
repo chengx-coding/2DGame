@@ -31,3 +31,13 @@
 *.out
 *.app
 run
+
+# Visual Studio
+*/Debug
+*.ilk
+2DGame.exp
+2DGame.lib
+2DGame.pdb
+2DGame.VC.db
+2DGame.VC.VC.opendb
+.vs

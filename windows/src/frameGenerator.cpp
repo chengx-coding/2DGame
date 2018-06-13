@@ -1,4 +1,5 @@
-#include <sys/stat.h>
+//#include <sys/stat.h>
+#include <direct.h>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -17,7 +18,8 @@ FrameGenerator::FrameGenerator() :
 {
     struct stat info;
     if( stat( "frames", &info ) != 0 ) {
-        mkdir("frames", 0755);
+        //mkdir("frames", 0755);
+        _mkdir("frames");
     }
 }
 

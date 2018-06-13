@@ -3,7 +3,7 @@
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_surface.h>
-#include <SDL2/SDL_image.h>
+#include <SDL_image.h>
 
 //Use:
 //
@@ -21,7 +21,7 @@
 
 class SpriteSheet {
 public:
-    static const struct NonOwningT {} NonOwning;
+    //static const struct NonOwningT {} NonOwning;
 
     SpriteSheet()=delete;
     SpriteSheet(const SpriteSheet&)=delete;
@@ -29,17 +29,25 @@ public:
     SpriteSheet(SpriteSheet&&)=default;
     SpriteSheet& operator=(SpriteSheet&&)=default;
 
-    SpriteSheet(SDL_Surface* _src, int w, int h, const NonOwningT)
-        : src(_src),view({ 0,0,w,h }),
-        Nr(_src->h/h),Nc(_src->w/w),N(Nr*Nc),
+    //SpriteSheet(SDL_Surface* _src, int w, int h, const NonOwningT)
+    //    : src(_src),view({ 0,0,w,h }),
+    //    Nr(_src->h/h),Nc(_src->w/w),N(Nr*Nc),
+    //    owning(false)
+    //{
+    //}
+    //SpriteSheet(SDL_Surface* _src, int w, int h)
+    //    : SpriteSheet(_src, w, h, NonOwning)
+    //{
+    //    owning = true;
+    //}
+
+    SpriteSheet(SDL_Surface* _src, int w, int h)
+        : src(_src), view({ 0,0,w,h }),
+        Nr(_src->h / h), Nc(_src->w / w), N(Nr*Nc),
         owning(false)
     {
     }
-    SpriteSheet(SDL_Surface* _src, int w, int h)
-        : SpriteSheet(_src,w,h,NonOwning)
-    {
-        owning = true;
-    }
+
     ~SpriteSheet(){
         if(owning) SDL_FreeSurface(src);
     }
