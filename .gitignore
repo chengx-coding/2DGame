@@ -34,6 +34,7 @@ run
 
 # Visual Studio
 */Debug
+*/Release
 *.ilk
 2DGame.exp
 2DGame.lib
